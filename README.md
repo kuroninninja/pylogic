@@ -24,6 +24,7 @@ The module contains all of the essential gates (as listed by [Wikipedia](https:/
     - [Binary Numbers](#binary-numbers)
     - [Logic](#logic)
     - [merge()](#merge)
+- [Docs](#docs)
 
 ## Install
 
@@ -117,3 +118,7 @@ This can be changed by specifying the number of bits with the argument `bits`:
 >>> merge([num_1, num_0], bits=8)
 000000010
 ```
+
+## Docs
+
+A full list of classes and functions can be found at [the wiki](https://www.github.com/kuroninninja/pylogic/wiki).
