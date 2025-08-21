@@ -3,7 +3,7 @@
 <div align=center>
 
 ![GitHub Release](https://img.shields.io/github/v/release/kuroninninja/pylogic?style=for-the-badge)
-![Python Version](https://img.shields.io/badge/python-3.13.2-%233776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python Version](https://img.shields.io/badge/python->3.13.2-%233776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Static Badge](https://img.shields.io/badge/readme_style-standard-green?style=for-the-badge&link=github.com%2FRichardLitt%2Fstandard-readme)
 ![GitHub commits since latest release](https://img.shields.io/github/commits-since/kuroninninja/pylogic/latest?style=for-the-badge)
 
