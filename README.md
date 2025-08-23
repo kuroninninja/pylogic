@@ -71,7 +71,7 @@ Next, create a `BinaryNum` instance
 
 where `num` is the numerical value (e.g. `101`) and `bits` is the number of bits (e.g. `32` for a 32-bit integer).
 
-> Note: currently, `pylogic` does _**NOT**_ support a `BinaryNum` with a decimal point (i.e. `101` is supported but `101.1` is not).
+> Note: currently, `pylogic` does _**NOT**_ support a `BinaryNum` with a decimal point (e.g. `101` is supported but `101.1` is not).
 
 Printing the `Num` returns its value:
 
