@@ -26,7 +26,9 @@ The module contains all of the essential gates (as listed by [Wikipedia](https:/
     - [Binary Numbers](#binary-numbers)
     - [Logic](#logic)
     - [merge()](#merge)
+    - [CBAS](#cbas)
 - [Docs](#docs)
+- [Acknowledgements](#acknowledgements)
 
 ## Install
 
@@ -121,6 +123,53 @@ This can be changed by specifying the number of bits with the argument `bits`:
 000000010
 ```
 
+### CBAS
+
+The CBAS _(Computer Boolean Algebra System)_ is a handy way to shorten long expressions, such as when creating a full adder.
+
+The CBAS is able to take a Boolean algebra equation, such as `"(1⊕0)∧(0⊕1)"`, and can output the result of the equation in the form of a `BinaryNum` instance.
+
+Firstly, import the CBAS:
+
+```python
+>>> from pylogic import cbas
+```
+
+Just pass the expression through the CBAS as follows:
+
+```python
+>>> cbas.calculate("(1*0)•(0*1)")
+1
+```
+
+> Please note that one **MUST** use the correct Unicode characters as shown below. You can print them by using `cbas.reference()`:
+> ```
+> >>> cbas.reference()
+> NOT | AND | NAND | XOR
+>  L  |  •  |  ^   |  *
+> 
+> XNOR | OR | NOR | IMPLY | NIMPLY
+>  o   | +  |  ±  |   >   |   *L
+> ```
+> Note that `•` is `ALT+8` and `±` is `ALT-SHIFT-+`.
+
+The order of operations is as follows:
+```
+Parenthesis
+NOT
+AND
+NAND
+XOR
+XNOR
+OR
+NOR
+IMPLY
+```
+
 ## Docs
 
 A full list of classes and functions can be found at [the wiki](https://www.github.com/kuroninninja/pylogic/wiki).
+
+## Acknowledgements
+
+Thanks to [ModPunchtree on YouTube](https://www.youtube.com/@ModPunchtree) for their [tutorial on the Shunting Yard algorithm](https://www.youtube.com/watch?v=ybRWZC9gYjM).
