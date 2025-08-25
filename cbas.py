@@ -2,7 +2,7 @@
 Computer Boolean Algebra System v1.0
 """
 
-from gates import *
+from pylogic.gates import *
 
 operator_info = {
     "L": ["8", "1", NOT],  # NOT
