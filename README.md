@@ -127,7 +127,7 @@ This can be changed by specifying the number of bits with the argument `bits`:
 
 The CBAS _(Computer Boolean Algebra System)_ is a handy way to shorten long expressions, such as when creating a full adder.
 
-The CBAS is able to take a Boolean algebra equation, such as `"(1⊕0)∧(0⊕1)"`, and can output the result of the equation in the form of a `BinaryNum` instance.
+The CBAS is able to take a Boolean algebra equation, such as `"(1*0)•(0*1)"`, and can output the result of the equation in the form of a `BinaryNum` instance.
 
 Firstly, import the CBAS:
 
