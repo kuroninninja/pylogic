@@ -1,6 +1,6 @@
 """
 ===========
-PYLOGIC v1.2.0
+PYLOGIC v1.2.1
 ===========
 
 A simple module for simulating Boolean logic operations.
