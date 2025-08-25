@@ -1,5 +1,5 @@
 """
-Computer Boolean Algebra System v1.0
+Computer Boolean Algebra System v1.1
 """
 
 from pylogic.gates import *
